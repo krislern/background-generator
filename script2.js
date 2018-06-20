@@ -12,8 +12,9 @@ newFunc();
 //Closures - a function ran, the fuunction execute, ites never going to execute againe
 //But its going to remember that there are references to those variable
 // so the chile scope alwats has access to the parent scope
-// Testing 
+// Testing
 //Currying
+//People
 const multiply = (a,b) => a+b;
 const curriedMultiply = (a) => (b) => a + b;
 curriedMultiply(3)(4);
